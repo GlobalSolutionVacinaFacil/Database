@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2AF7FC8-B534-2394-2BAB-C467FE865C63" name="T_FABRICANTE">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:12:49 UTC</createdTime>
+<generatorID>68CDB00E-D991-3113-615C-B35048F22764</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FABRICANTE" id="17CEB09E-C6FB-0431-C23F-0C081E82D47F">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:12:49 UTC</createdTime>
+<generatorID>C0008520-98B4-BA60-E246-CB472B6FC531</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_FABRICANTE" id="9E167D23-B6D9-C708-C8EA-695DDC517235">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:12:49 UTC</createdTime>
+<generatorID>E3B66692-E95E-CD2A-37AF-0ED7360D20A6</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNPJ_FABRICANTE" id="881CFE3B-9D83-19F5-FC21-7C3212FF0C7D">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:12:49 UTC</createdTime>
+<generatorID>860629D5-B70A-B05D-AD70-AE0E2A5BF450</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24F44B2C-9BD0-52AE-43BF-08E5B1E2FB78" name="PK_T_FABRICANTE">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:12:49 UTC</createdTime>
+<generatorID>30DEBBF6-619B-6D30-334E-7BF99F6720AD</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17CEB09E-C6FB-0431-C23F-0C081E82D47F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

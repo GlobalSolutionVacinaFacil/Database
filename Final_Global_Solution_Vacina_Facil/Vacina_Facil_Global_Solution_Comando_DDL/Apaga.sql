@@ -1,0 +1,23 @@
+DROP TABLE t_aviso CASCADE CONSTRAINTS;
+
+DROP TABLE t_dependente CASCADE CONSTRAINTS;
+
+DROP TABLE t_endereco CASCADE CONSTRAINTS;
+
+DROP TABLE t_fabricante CASCADE CONSTRAINTS;
+
+DROP TABLE t_usuario CASCADE CONSTRAINTS;
+
+DROP TABLE t_vacina CASCADE CONSTRAINTS;
+
+DROP SEQUENCE seq_t_aviso;
+
+DROP SEQUENCE seq_t_dependente;
+
+DROP SEQUENCE seq_t_endereco;
+
+DROP SEQUENCE seq_t_fabricante;
+
+DROP SEQUENCE seq_t_usuario;
+
+DROP SEQUENCE seq_t_vacina;

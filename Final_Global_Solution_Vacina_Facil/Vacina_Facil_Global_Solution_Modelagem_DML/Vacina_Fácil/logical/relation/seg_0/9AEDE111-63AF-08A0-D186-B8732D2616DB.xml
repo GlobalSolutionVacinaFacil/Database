@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VAC_AVI" directorySegmentName="seg_0" id="9AEDE111-63AF-08A0-D186-B8732D2616DB">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-15 18:02:28 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<sourcePk>609ECEBA-A1F6-E434-9DF1-6A5117B32050</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C7CD90D-13E0-713D-744A-C9F4FD48A0BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4ED87BD-810B-D63D-B307-811B08DE7898</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

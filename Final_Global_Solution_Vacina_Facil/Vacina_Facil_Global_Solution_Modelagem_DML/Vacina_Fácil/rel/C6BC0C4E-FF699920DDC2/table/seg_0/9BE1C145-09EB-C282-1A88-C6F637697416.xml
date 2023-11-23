@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BE1C145-09EB-C282-1A88-C6F637697416" name="T_USUARIO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>A35BC333-0191-FA6F-6327-06CF81E003D0</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_USUARIO" id="7C6A3841-A4AE-58BF-7413-0F2089B95F9A">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>DAE3D64F-F384-CCFB-710A-9EF9125EC890</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_USUARIO" id="D7C6E5F7-591C-11A1-51E1-53C3962AC5E5">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>34F402AB-D6D4-A3DE-434E-EF6A366185AE</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_EMAIL" id="337DD71F-0E27-BCB3-B5B7-39E5D695BBB5">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>E62E6C08-F1D4-D8CE-FEB5-E4D495AD15AC</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_TELEFONE" id="125AF690-A5DC-E69A-B6C7-BD608A97C5D5">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>911E304E-D8B6-49CF-6975-4BBB4F33B1F5</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0531DB7B-138C-EF70-2290-EADD69730B0E" name="PK_T_USUARIO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>D55571D3-F79F-2453-3364-C33918B1A8A5</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C6A3841-A4AE-58BF-7413-0F2089B95F9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="701BB533-3E6F-C36F-6E80-F108A7ED000F" name="UK_DS_EMAIL">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:36:22 UTC</createdTime>
+<generatorID>89160640-E175-9446-8971-79C12B6FFA1C</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="337DD71F-0E27-BCB3-B5B7-39E5D695BBB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF488557-9D34-692C-9657-01B184468D36" name="T_DEPENDENTE">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:41:36 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_DEP" id="1F472B02-5DED-CC3E-5EFE-F969F9A0851E">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:42:32 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="4226927B-6ED2-7792-202B-D73173566FF3">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:01:00 UTC</createdTime>
+<generatorID>9D8000B2-6877-0568-748A-FED61BA5D516</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<referedAttribute>DAE3D64F-F384-CCFB-710A-9EF9125EC890</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DEP" id="80E3A8F6-6808-BA7E-CB1C-95239431E502">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:42:32 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="050C7C20-0447-EE96-C0D7-ECB8E25FD46C">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:42:33 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B3F7EDA-27DD-18F6-2AED-9356EE487D7A" name="PK_T_DEPENDENTE ">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:42:51 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1F472B02-5DED-CC3E-5EFE-F969F9A0851E</newElementsIDs>
+<usedAttributes>
+<attributeRef>1F472B02-5DED-CC3E-5EFE-F969F9A0851E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

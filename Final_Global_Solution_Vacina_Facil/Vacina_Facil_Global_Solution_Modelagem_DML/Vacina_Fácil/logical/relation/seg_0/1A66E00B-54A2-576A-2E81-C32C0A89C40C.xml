@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_USU_END" directorySegmentName="seg_0" id="1A66E00B-54A2-576A-2E81-C32C0A89C40C">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:15:42 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<sourcePk>D55571D3-F79F-2453-3364-C33918B1A8A5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A35BC333-0191-FA6F-6327-06CF81E003D0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8C0EFD00-B37F-A6F3-6D3C-5CF3ADA297F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="D3C99BBB-2B68-7E49-591A-2DAA6F51D2BE" mainViewID="29B84B94-BA13-180C-E3D9-F7FD4EAE9329">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:39:26 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

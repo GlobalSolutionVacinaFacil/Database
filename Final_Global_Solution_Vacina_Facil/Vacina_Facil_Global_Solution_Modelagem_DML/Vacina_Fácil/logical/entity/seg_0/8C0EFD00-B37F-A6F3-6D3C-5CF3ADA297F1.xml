@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C0EFD00-B37F-A6F3-6D3C-5CF3ADA297F1" name="T_ENDERECO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:23 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_END" id="4C34D53A-5A74-6B9D-54D7-F61ED080EC66">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:49 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_USUARIO" id="A86A4550-163A-93A9-0E2A-1A84216CE9D6">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:15:42 UTC</createdTime>
+<generatorID>1A66E00B-54A2-576A-2E81-C32C0A89C40C</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<referedAttribute>DAE3D64F-F384-CCFB-710A-9EF9125EC890</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_LOGRADOURO" id="617210A0-A79E-5F96-6F69-ED772AD0A9AA">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:49 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_LOG" id="30A7F66A-A39C-DC0B-0115-BDC0EF8C98A8">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:50 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_BAIRRO" id="236B3BBA-70A0-04EB-D7FB-CA8CFD6FBDC4">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:51 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CIDADE" id="17A238B2-497D-74CB-F644-3EB84D3C4F61">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:51 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ESTADO" id="41EE16B8-7FA9-D9B4-4E2E-CD2088B46BFB">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:52 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CEP" id="5FBCD412-8F49-6EBD-6598-DF83C72A356A">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:43:52 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7C98807-CA39-E93E-6B68-2C34D317ABC8" name="PK_T_ENDERECO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 20:44:05 UTC</createdTime>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C6BC0C4E-C690-A425-5DD0-FF699920DDC2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4C34D53A-5A74-6B9D-54D7-F61ED080EC66</newElementsIDs>
+<usedAttributes>
+<attributeRef>4C34D53A-5A74-6B9D-54D7-F61ED080EC66</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

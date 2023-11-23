@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7882720-C741-4CAD-44A0-7BF4B40477C2" name="T_ENDERECO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>8C0EFD00-B37F-A6F3-6D3C-5CF3ADA297F1</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_END" id="BC097D79-5731-64C8-0338-49FB3FEC3030">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>4C34D53A-5A74-6B9D-54D7-F61ED080EC66</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_LOGRADOURO" id="1A51A6E8-AC4D-B8C6-9A40-E1AFDD3FF562">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>617210A0-A79E-5F96-6F69-ED772AD0A9AA</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_LOG" id="23BAC32A-BA11-4AC8-7C9A-5C4C5DC04348">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>30A7F66A-A39C-DC0B-0115-BDC0EF8C98A8</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ESTADO" id="B1D364EC-4E96-8D53-B0CB-D1A24E9D78F6">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>41EE16B8-7FA9-D9B4-4E2E-CD2088B46BFB</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_BAIRRO" id="36B2D89B-15F9-96D9-418D-58B9EA063D41">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>236B3BBA-70A0-04EB-D7FB-CA8CFD6FBDC4</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NR_CEP" id="2AA41401-B0AE-6AFB-BCBE-D1B722BF1AB3">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>5FBCD412-8F49-6EBD-6598-DF83C72A356A</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CIDADE" id="591BFB84-7DC6-2F4A-064B-A93DCB9BB5A4">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>17A238B2-497D-74CB-F644-3EB84D3C4F61</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="E87FFE79-BE91-F467-F5D4-B13508419C39">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:36:22 UTC</createdTime>
+<generatorID>A86A4550-163A-93A9-0E2A-1A84216CE9D6</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F86B22-9E7A-4C86-11E6-4D7BF3D92438" referredColumn="7C6A3841-A4AE-58BF-7413-0F2089B95F9A"/>
+</associations>
+</Column>
+<Column name="ID_UBS" id="9FE16787-2EF9-0699-4B78-8EB43E6709D0">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:36:22 UTC</createdTime>
+<generatorID>5BA3A74A-CBB7-E464-4DA6-611A6E9605BB</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="10B2D42D-AFC2-A01D-69C0-ABB2014DC932" name="PK_T_ENDERECO">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>A7C98807-CA39-E93E-6B68-2C34D317ABC8</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC097D79-5731-64C8-0338-49FB3FEC3030"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CC17680-E736-2738-567A-25706EF7E392" name="FK_USU_END">
+<createdBy>gumor</createdBy>
+<createdTime>2023-11-14 21:28:00 UTC</createdTime>
+<generatorID>1A66E00B-54A2-576A-2E81-C32C0A89C40C</generatorID>
+<ownerDesignName>Vacina_Fácil</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87FFE79-BE91-F467-F5D4-B13508419C39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
